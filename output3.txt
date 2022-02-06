@@ -1,0 +1,39 @@
+read_comp C, 1123, 22 
+1123.00 + (22.00)i
+
+read_comp C, 5, 5 dsfaf
+Missing comma
+
+read_comp A, 44, 99
+44.00 + (99.00)i
+
+_comp A, C
+Undefined command name
+
+_comp A, C
+Undefined command name
+
+mult_comp_real A, 22
+968.00 + (2178.00)i
+
+mult_comp_real C, 22
+24706.00 + (484.00)i
+
+mult_comp_img A, 22
+-2178.00 + (968.00)i
+
+mult_comp_img A, 22
+-2178.00 + (968.00)i
+
+mult_comp_comp A,C
+47234.00 + (112145.00)i
+
+mult_comp_comp C,A
+47234.00 + (112145.00)i
+
+abs_comp A
+108.34
+
+abs_comp C
+1123.22
+

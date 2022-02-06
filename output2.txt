@@ -1,0 +1,48 @@
+read_comp C, 1123, 22 
+1123.00 + (22.00)i
+
+read_comp C, 5, 5 dsfaf
+Missing comma
+
+read_comp A, 44, 99
+44.00 + (99.00)i
+
+add_comp A, C
+1167.00 + (121.00)i
+
+stop dsd
+Extraneous text after end of command
+
+read_comp C, 1, 1 dsfaf
+Missing comma
+
+read_comp A, 1, 1
+1.00 + (1.00)i
+
+read_comp    B,     48.22,       299.75 
+48.22 + (299.75)i
+
+add_comp A, B
+49.22 + (300.75)i
+
+sub_comp A, B
+-47.22 - (298.75)i
+
+read_comp C, 44, 22 
+44.00 + (22.00)i
+
+read_comp D, -88S, -8.74 
+-88.00 - (8.74)i
+
+read_comp E, 5.5, -8.78 
+5.50 - (8.78)i
+
+read_comp F, 45.88, -13.75 
+45.88 - (13.75)i
+
+sub_comp E, F
+-40.38 + (4.97)i
+
+add_comp E, F
+51.38 - (22.53)i
+

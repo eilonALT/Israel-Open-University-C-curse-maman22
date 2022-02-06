@@ -1,0 +1,13 @@
+read_comp C, 1123, 22 
+1123.00 + (22.00)i
+
+read_comp C, 5, 5 dsfaf
+Missing comma
+
+read_comp A, 44, 99
+44.00 + (99.00)i
+
+add_comp A, C
+1167.00 + (121.00)i
+
+stop
